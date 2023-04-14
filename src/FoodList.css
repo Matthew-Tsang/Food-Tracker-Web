@@ -1,0 +1,35 @@
+#foodlist-page-container {
+    width: calc(100% - 185px);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    right: 0;
+    position: absolute;
+}
+
+#foodlist-wrapper {
+    width: 100%;
+}
+
+#create-fooditem-btn {
+    width: 160px;
+    height: 40px;
+    margin: 10px 0 10px 0;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-input {
+    width: 90%;
+}
+
+#sort {
+    width: 90%;
+}
+
+#select-dropdown {
+    width: 130px;
+}

@@ -1,0 +1,33 @@
+form {
+    /* width: calc(100% - 185px);
+    position: absolute;
+    right:0; */
+    width: 80%;
+
+}
+label {
+    text-align: left;
+}
+
+#form-container {
+    width: calc(100% - 185px);
+    position: absolute;
+    right:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#carbs-and-fats-container {
+    display: flex;
+    align-items: center;
+}
+
+.carbs-and-fats {
+    flex-basis: 50%;
+}
+
+#fats {
+    padding-left: 10px;
+}

@@ -1,0 +1,23 @@
+.profile-item {
+    margin-bottom: 22px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-style {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0;
+}
+
+.td-style {
+    flex-basis: 90%;
+    display: flex;
+}
+
+.th-style {
+    width: 100px;
+    text-align: center;
+}

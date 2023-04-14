@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.App {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  right: 0;
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.button {
+  background-color: #4E52BE;
+  border: none;
+  color: white;
+  padding: 17px 27px 17px 27px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 18px;
+}
+
+.button:hover {
+  background-color: #4E52BE;
+  border: none;
+  color: white;
+  padding: 17px 27px 17px 27px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 18px;
+  opacity: 0.85;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+p {
+  margin: 0;
+}
+
+.Settings {
+  position: absolute;
+  width: calc(100% - 185px);
+  right: 0;
+}
+
+.ResetEmail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.edit-food-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#edit-input {
+  margin: 0;
+  padding: 2px;
+}
+
+.regInput {
+  width: 50%;
+}
+
+.registration {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.regButton {
+  background: #4E52BE;
+  border-radius: 18px;
+  padding: 17px 27px 17px 27px;
+}
+
+.regButton:hover {
+  background: #4E52BE;
+  opacity: 0.8;
+}

@@ -1,0 +1,24 @@
+#mealplan-page-container {
+    width: calc(100% - 185px);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    right: 0;
+    position: absolute;
+}
+
+#mealplan-wrapper {
+    width: 75%;
+}
+
+#create-mealitem-btn {
+    width: 160px;
+    height: 40px;
+    margin: 10px 0 10px 0;
+    font-size: 14px;
+}
+
+#search-input {
+    width: 90%;
+}

@@ -1,0 +1,75 @@
+
+h5 {
+    margin: 0;
+    padding-bottom: 12px;
+}
+
+.mealplan-half {
+    flex-basis: 50%;
+}
+
+.mealplan-item {
+    height: 106px;
+    width: 90%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 13px;
+    transition: all 0.3s ease;
+}
+
+.mealplan-item-expanded {
+    height: 150px;
+    width: 90%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 13px;
+    transition: all 0.3s ease;
+}
+
+#item-right-half-meal {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: right;
+}
+
+.mealplan-half {
+    flex-basis: 50%;
+}
+
+h6 {
+    margin: 0 0 8px 0;
+    font-size: 16px;
+}
+
+#edit-btn {
+    margin: 0 0 8px 0;
+}
+
+#top3foods {
+    display: flex;
+}
+
+#allFoods {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn1, #delete-fooditem {
+    font-size: 20px;
+}
+
+.btn1:hover, #delete-fooditem:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#delete-fooditem {
+    margin-left: 20px;
+}

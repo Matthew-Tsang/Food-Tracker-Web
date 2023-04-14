@@ -1,0 +1,77 @@
+#mealplan-page-container {
+    width: calc(100% - 185px);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    right: 0;
+    position: absolute;
+}
+
+
+#mealplan-list-wrapper {
+    width: 100%;
+    margin-top: 30px;
+}
+
+#meal-plan-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-family: 'Montserrat';
+}
+
+h3 {
+    margin: 20px 0 0 10px;
+}
+
+#meal-plan-left {
+    display: flex;
+    justify-content: left;
+}
+
+#meal-plan-right {
+    display: flex;
+    justify-content: right;
+}
+
+.meal-plan-header-half {
+    flex-basis: 50%;
+    margin-left: 10px;
+}
+
+#add-meal-btn {
+    font-family: 'Montserrat';
+    width: 160px;
+    height: 40px;
+    margin: 20px 10px 0 0;
+    font-size: 14px;
+    background-color: white;
+    border-radius: 12px;
+    border: 1.5px solid #4E52BF;
+    color: #4E52BF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ #mealplan-list-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#textBox {
+    width: 30%;
+}
+
+#createMealPlan {
+    display: flex;
+    justify-content: center;
+}
