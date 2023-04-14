@@ -1,5 +1,5 @@
 # food-tracker-web
-This is the front end code for the food tracker web app that handles user interface and calls the API to modify the database.
+This is the front end code for the food tracker web app that handles user interface and calls the API to modify the database.  
 Current features include:  
 User sessions (managed by cookies),  
 The ability to add and delete individual food items and meal plans,  
